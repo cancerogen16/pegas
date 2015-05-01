@@ -140,7 +140,7 @@ Kohana::modules(array(
  * If you have not defined a cookie salt in your Cookie class then
  * uncomment the line below and define a preferrably long salt.
  */
-// Cookie::$salt = NULL;
+Cookie::$salt = '345987456098123';
 
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
